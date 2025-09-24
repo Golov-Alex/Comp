@@ -12,9 +12,21 @@ namespace pract
 {
     public partial class Form1 : Form
     {
+        public class Employee
+        {
+            public int ID { get; set; }
+            public string FIO { get; set; }
+            public string Position { get; set; }
+            public decimal Salary { get; set; }
+        }
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void buttonSortSalary_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

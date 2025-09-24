@@ -43,6 +43,7 @@
             this.buttonSortSalary.TabIndex = 9;
             this.buttonSortSalary.Text = "Сортировать";
             this.buttonSortSalary.UseVisualStyleBackColor = true;
+            this.buttonSortSalary.Click += new System.EventHandler(this.buttonSortSalary_Click);
             // 
             // buttonFindManagers
             // 
