@@ -53,6 +53,7 @@
             this.buttonFindManagers.TabIndex = 8;
             this.buttonFindManagers.Text = "Найти менеджеров";
             this.buttonFindManagers.UseVisualStyleBackColor = true;
+            this.buttonFindManagers.Click += new System.EventHandler(this.buttonFindManagers_Click_1);
             // 
             // buttonRemove
             // 
@@ -62,6 +63,7 @@
             this.buttonRemove.TabIndex = 7;
             this.buttonRemove.Text = "Удалить ID=4";
             this.buttonRemove.UseVisualStyleBackColor = true;
+            this.buttonRemove.Click += new System.EventHandler(this.buttonRemove_Click_1);
             // 
             // buttonInsert
             // 
@@ -72,6 +74,7 @@
             this.buttonInsert.Text = "Вставить перед ID=3 ";
             this.buttonInsert.UseMnemonic = false;
             this.buttonInsert.UseVisualStyleBackColor = true;
+            this.buttonInsert.Click += new System.EventHandler(this.buttonInsert_Click_1);
             // 
             // listBoxLog
             // 
